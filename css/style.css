@@ -37,13 +37,16 @@ p {
 }
 
 main {
+    top: 40%;
+    left: 50%;
+    right: 50%;
+    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vw;
-    width: 100vw;
 }
+
 main > h1 {
     color: #F0F0F0;
     font-size: 80px;
@@ -58,7 +61,7 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 300px;
     margin-right: 20px;
 }
 
